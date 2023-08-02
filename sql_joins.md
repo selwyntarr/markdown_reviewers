@@ -34,6 +34,8 @@ VALUES (1), (1), (2), (2), (4), (null);
 | 3 | null |
 | 3 | |
 
+`Beware: null is not equal to null (they are representation only of no value) cannot be a match when joining`
+
 ## Inner Join
 
 - **Question:** How do inner join works?
