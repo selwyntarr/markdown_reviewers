@@ -154,6 +154,20 @@ VALUES (1), (1), (2), (2), (4), (null);
   </tr>
 </table>
 
+- **Solution:**
+    - Match the table to itself with source and its destination
+    - Add a condition where the `id_1` should be less than `id_2`, this will remove any duplicates 
+```
+WITH cte AS (
+    SELECT * 
+    , ROW_NUMBER() OVER() AS id --to generate row_id
+    from source_table
+)
+SELECT cte T1 -- create first instance
+SELECT cte T2 -- create second instance
+    ON T1.source = T2.destination
+    AND T1.id < T2.id --this will remove the duplicate matches
+```
     
 ## References:
 `Different Types of Joins` -> https://www.youtube.com/watch?v=xUsY2jWQa1w
