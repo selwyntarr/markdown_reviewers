@@ -1,10 +1,6 @@
 # SQL Joins
 
->Compiled by: Selwyn Zack Tarriela
-
->Date: 03/08/2023
-
->Github: [selwyntarr](https://github.com/selwyntarr)
+>Compiled by: Selwyn Zack Tarriela <br> Date: 03/08/2023 <br> Github: [selwyntarr](https://github.com/selwyntarr)
 
 ## Sample Data
 Create **table_one** query:
