@@ -74,3 +74,19 @@ VALUES (1), (1), (2), (2), (4), (null);
     - no need to write the `ON` keyword and specify a critera;
     - if there are same name column existing on the two tables it will do an inner join;
     - elif there are no identical columns on the tables it will do a cross join;
+
+## Self Join
+
+- **Question:** How to do a self join?
+    - Reference the table to itself by using a common table expression or a temporary result set
+
+- **Example:** What query to get the output table
+
+| Source Table | Output Table |
+| --- | --- |
+| <table>  <thead>  <tr>  <th>Source</th>  <th>Destination</th> <th>Distance</th>  </tr>  </thead> <tbody> <tr></tr> </tbody> </table> | test |
+
+    
+## References:
+`Different Types of Joins` -> https://www.youtube.com/watch?v=xUsY2jWQa1w
+`Self Join` -> https://www.youtube.com/watch?v=WhkNQ3g0U64
