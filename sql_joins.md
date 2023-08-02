@@ -78,7 +78,7 @@ VALUES (1), (1), (2), (2), (4), (null);
 - **Question:** How to do a self join?
     - Reference the table to itself by using a common table expression or a temporary result set
 
-- **Example:** What query to get the output table
+- **Example:** What query to get the output table?
 
 <table>
   <tr>
