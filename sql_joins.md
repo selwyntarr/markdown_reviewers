@@ -82,9 +82,76 @@ VALUES (1), (1), (2), (2), (4), (null);
 
 - **Example:** What query to get the output table
 
-| Source Table | Output Table |
-| --- | --- |
-| <table>  <thead>  <tr>  <th>Source</th>  <th>Destination</th> <th>Distance</th>  </tr>  </thead> <tbody> <tr></tr> </tbody> </table> | test |
+<table>
+  <tr>
+    <th>Source Table</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>
+        <table>
+            <tr>
+                <th>Source</th>
+                <th>Destination</th>
+                <th>Travel Time (mins)</th>
+            </tr>
+            <tr>
+                <td>Marikina</td>
+                <td>San Mateo</td>
+                <td>60</td>
+            </t>
+            <tr>
+                <td>San Mateo</td>
+                <td>Marikina</td>
+                <td>60</td>
+            </t>
+            <tr>
+                <td>Marikina</td>
+                <td>Cainta</td>
+                <td>60</td>
+            </t>
+            <tr>
+                <td>Cainta</td>
+                <td>Marikina</td>
+                <td>60</td>
+            </t>
+            <tr>
+                <td>San Mateo</td>
+                <td>Montalban</td>
+                <td>60</td>
+            </t>
+            <tr>
+                <td>Montalban</td>
+                <td>San Mateo</td>
+                <td>60</td>
+            </tr>
+        </table>
+    </td>
+    <td>
+        <tr>
+                <th>Source</th>
+                <th>Destination</th>
+                <th>Travel Time (mins)</th>
+            </tr>
+            <tr>
+                <td>Marikina</td>
+                <td>San Mateo</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Marikina</td>
+                <td>Cainta</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>San Mateo</td>
+                <td>Montalban</td>
+                <td>60</td>
+            </t>
+        </table>
+    </td>
+  </tr>
+</table>
 
     
 ## References:
