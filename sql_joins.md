@@ -170,5 +170,5 @@ SELECT cte T2 -- create second instance
 ```
     
 ## References:
-`Different Types of Joins` -> https://www.youtube.com/watch?v=xUsY2jWQa1w
+`Different Types of Joins` -> https://www.youtube.com/watch?v=xUsY2jWQa1w <br>
 `Self Join` -> https://www.youtube.com/watch?v=WhkNQ3g0U64
