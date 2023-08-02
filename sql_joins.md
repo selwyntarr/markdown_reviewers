@@ -128,7 +128,8 @@ VALUES (1), (1), (2), (2), (4), (null);
         </table>
     </td>
     <td>
-        <tr>
+        <table>
+            <tr>
                 <th>Source</th>
                 <th>Destination</th>
                 <th>Travel Time (mins)</th>
