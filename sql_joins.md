@@ -2,6 +2,12 @@
 
 >Compiled by: Selwyn Zack Tarriela <br> Date: 03/08/2023 <br> Github: [selwyntarr](https://github.com/selwyntarr)
 
+## Table of Contents
+- [Different Types of Join](#Sample Data-2)
+
+---
+
+
 ## Sample Data
 Create **table_one** query:
 ```
