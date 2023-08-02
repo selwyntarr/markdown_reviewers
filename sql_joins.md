@@ -1,7 +1,9 @@
 # SQL Joins
 
 >Compiled by: Selwyn Zack Tarriela
+
 >Date: 03/08/2023
+
 >Github: [selwyntarr](https://github.com/selwyntarr)
 
 ## Sample Data
