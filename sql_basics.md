@@ -4,7 +4,7 @@
 
 ## Table of Contents
 - [SQL subset](#SQL-Subset)
-- [DBMS](#DBMS)
+- [Table, Field, Record](#Table,-Field,-Record)
 
 ## SQL Subset
 - **Data Definition Language (DDL)**
@@ -20,4 +20,19 @@
     - For dealing with trasaction of the database
     - `COMMIT, ROLLBACK, and SAVEPOINT`
 
-## DBMS
+## Table, Field, Record
+These 3 terms are some of the most basic things you'll hear/see when dealing with relational databases
+<table>
+    <tr>
+        <td>Table</td>
+        <td>Table</td>
+    </tr>
+    <tr>
+        <td>Column</td>
+        <td>Field</td>
+    </tr>
+    <tr>
+        <td>Row</td>
+        <td>Record</td>
+    </tr>
+</table>
